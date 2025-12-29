@@ -10,9 +10,9 @@ on:
   workflow_dispatch:  # Allow manual trigger
 
 env:
-  AWS_REGION: eu-north-1
-  ECR_REPOSITORY: rag-qa-project-1-hybrid
-  APP_RUNNER_SERVICE: rag-qa-app-hybrid
+  AWS_REGION: us-east-1
+  ECR_REPOSITORY: rag-qa-project-1
+  APP_RUNNER_SERVICE: rag-qa-project-1
 
 jobs:
   # ============================================
